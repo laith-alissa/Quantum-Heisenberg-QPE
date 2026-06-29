@@ -25,15 +25,15 @@ All three prepared triplet eigenstates converge identically to the binary bitstr
 
 
 * **Prepared State:** $|\psi_{\text{triplet}}\rangle = \frac{1}{\sqrt{2}}(|01\rangle + |10\rangle)$
-* 
+
   ![Triplet Plus Histogram](figures/histogram_triplet_plus.png)
 
 
 * **Prepared State:** $|00\rangle$
-* 
+
   ![Triplet 00 Histogram](figures/histogram_triplet_00.png)
 
 
 * **Prepared State:** $|11\rangle$
-* 
+  
   ![Triplet 11 Histogram](figures/histogram_triplet_11.png)
