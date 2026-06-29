@@ -13,18 +13,43 @@ Classical exact numerical diagonalization scales exponentially as $2^N$. This pr
 
 ## 🛠️ Installation & Setup
 
-1. **Clone the repository:**
+### Approach 1: Run via Local Environment
+To run this simulation on your local machine, follow these steps sequentially:
+
+1. **Clone the repository and enter the directory:**
    ```bash
    git clone [https://github.com/laith-alissa/Quantum-Heisenberg-QPE.git](https://github.com/laith-alissa/Quantum-Heisenberg-QPE.git)
    cd Quantum-Heisenberg-QPE
-   
-2. Install the dependencies
+   ```
+
+2. **Install the required dependencies:**
    ```bash
    pip install -r requirements.txt
-   
-3. Run the main simulation script:
-    ```bash
-   python heisenberg_qpe.ipynb
+   ```
 
+3. **Launch the Jupyter interface:**
+   ```bash
+   jupyter notebook heisenberg_qpe.ipynb
+   ```
 
-Another approach is to use the inserted notebook directly rather that setting up the environment.
+### Approach 2: Direct Interactive Notebook
+Alternatively, you can skip local environment configuration entirely by opening the included `heisenberg_qpe.ipynb` notebook directly in an interactive cloud environment like GitHub Codespaces, Google Colab, or the IBM Quantum Platform.
+
+---
+
+## 📊 Visualizations
+
+### Circuit Pipeline
+The 4-bit counting register layout utilizing controlled Pauli interaction channels:
+![QPE Heisenberg Circuit](qpe_heisenberg_circuit.png)
+
+### Measurement Outcomes
+| Singlet Ground State (`0100`) | Triplet State (`1111`) |
+|---|---|
+| ![Singlet Histogram](histogram_singlet.png) | ![Triplet Histogram](histogram_triplet_plus.png) |
+
+---
+
+## 📄 References
+* Oliveira, M. G. J., Antão, T. V. C., & Peres, N. M. R. (2024). *The two-site Heisenberg model studied using a quantum computer: A didactic introduction.* Revista Brasileira de Ensino de Física.
+* Nielsen, M. A., & Chuang, I. L. (2010). *Quantum Computation and Quantum Information.*
