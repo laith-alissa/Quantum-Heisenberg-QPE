@@ -23,11 +23,17 @@ Returns the binary bitstring `0100`, which correctly decodes to an estimated ene
 ### 2. Triplet Excited States ($E_1, E_2, E_3 = +1J$)
 All three prepared triplet eigenstates converge identically to the binary bitstring `1111`, proving the physical threefold degeneracy predicted by exact classical matrix diagonalization.
 
-* **Prepared State: $|\psi_{\text{triplet\_plus}}\rangle = \frac{1}{\sqrt{2}}(|01\rangle + |10\rangle)$**
-  ![Triplet Plus Histogram](figures/figures/histogram_triplet_plus.png)
 
-* **Prepared State: $|00\rangle$**
+* **Prepared State:** $|\psi_{\text{triplet}}\rangle = \frac{1}{\sqrt{2}}(|01\rangle + |10\rangle)$
+  
+  ![Triplet Plus Histogram](figures/histogram_triplet_plus.png)
+
+
+* **Prepared State:** $|00\rangle$
+  
   ![Triplet 00 Histogram](figures/histogram_triplet_00.png)
 
-* **Prepared State: $|11\rangle$**
+
+* **Prepared State:** $|11\rangle$
+  
   ![Triplet 11 Histogram](figures/histogram_triplet_11.png)
