@@ -19,9 +19,12 @@ Classical exact numerical diagonalization scales exponentially as $2^N$. This pr
    cd Quantum-Heisenberg-QPE
    
 2. Install the dependencies
+   ```bash
    pip install -r requirements.txt
    
 3. Run the main simulation script:
+    ```bash
    python heisenberg_qpe.ipynb
+
 
 Another approach is to use the inserted notebook directly rather that setting up the environment.
