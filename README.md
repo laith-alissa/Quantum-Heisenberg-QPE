@@ -46,7 +46,7 @@ The 4-bit counting register layout utilizing controlled Pauli interaction channe
 ### Measurement Outcomes
 | Singlet Ground State (`0100`) | Triplet State (`1111`) |
 |---|---|
-| ![Singlet Histogram](histogram_singlet.png) | ![Triplet Histogram](histogram_triplet_plus.png) ![Triplet Histogram](histogram_triplet_00.png) ![Triplet Histogram](histogram_triplet_11.png)|
+| ![Singlet Histogram](histogram_singlet.png) | ![Triplet Histogram](histogram_triplet_plus.png) |
 
 ---
 
