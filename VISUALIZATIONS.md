@@ -41,13 +41,14 @@ All three prepared triplet eigenstates converge identically to the binary bitstr
 
 ## 📊 Counting Regiester Scaling Analysis
 
-The figures conducted to describe the effect of scaling up the counting register from $n=4$ up to $n=8$ on the singlet state energy, taking the singlet error from about 14\% down to under 1\%
+The figure conducted to describe the effect of scaling up the counting register from $n=4$ up to $n=8$ on the singlet state energy, taking the singlet error from about 14\% down to under 1\%
 
-   ![Error Scaling Histogram](figures/error_scaling.png)
-
-
+   ![Error Scaling Figure](figures/error_scaling.png)
 
 
+The figure describing growth of transpiled circuit depth, total gate count, and CNOT count as the number of counting qubits increases.
+
+  ![Resource Scaling Figure](figures/resource_scaling.png)
 
 
 
