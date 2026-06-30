@@ -37,3 +37,20 @@ All three prepared triplet eigenstates converge identically to the binary bitstr
 * **Prepared State:** $|11\rangle$
   
   ![Triplet 11 Histogram](figures/histogram_triplet_11.png)
+
+
+The figures conducted to describe the effect of scaling up the counting register from $n=4$ up to $n=8$ on the singlet state energy, taking the singlet error from about 14\% down to under 1\%
+
+   ![Error Scaling Histogram](figures/error_scaling.png)
+
+
+
+
+
+
+
+
+
+
+
+
