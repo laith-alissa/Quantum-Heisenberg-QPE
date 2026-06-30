@@ -16,7 +16,7 @@ Classical exact numerical diagonalization scales exponentially as $2^N$. This pr
 ### Approach 1: Run Remotely via Google Colab (No Setup Required)
 Skip the entire local configuration. Click the badge below to open the interactive notebook directly in Google Colab and run it on cloud hardware:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/laith-alissa/Quantum-Heisenberg-QPE/blob/main/heisenberg_qpe.ipynb)
+[![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg](https://colab.research.google.com/drive/1djpzG7S0Bm8tUD6vL_6RgteOGlfAgJvC#scrollTo=LaJOOVzPDfi4))](https://colab.research.google.com/github/laith-alissa/Quantum-Heisenberg-QPE/blob/main/heisenberg_qpe.ipynb)
 
 *Note: When running in Colab, make sure to execute `!pip install qiskit qiskit-aer matplotlib scipy numpy` in the first cell to load the external libraries.*
 
